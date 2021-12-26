@@ -1,2 +1,4 @@
 # Intelligent-motion-control
 Solve the Lego maze and control the small ball move on the plate, from the green block to the red block.
+
+In this system, the images of the plate and the ball in the cricket system are acquired through the camera and transferred to the computer. After that, using Python programming, the image is binarized and the areas on the plate are distinguished according to the different colors, the plate and the obstacles, and the coordinates of the ball and the circular area on the plate can be obtained. In addition, after obtaining the image of the LEGO maze, the algorithm plans the route of the ball moving from the starting point to the end point and determines a series of target positions of the ball. The ball's position is compared with the set position, and the pulse width adjustment (PWM) and the encoder are used to make the motor reach different rotational speeds.
